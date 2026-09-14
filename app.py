@@ -14,8 +14,9 @@ st.write("Enter customer details to predict churn probability.")
 
 # Load dataset
 data = pd.read_csv(
-    "dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+    "WA_Fn-UseC_-Telco-Customer-Churn.csv"
 )
+
 
 data = data.drop("customerID", axis=1)
 
